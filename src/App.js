@@ -1,10 +1,11 @@
 import "./App.css";
+import Weather from "./Weather.js";
 
 function App() {
   return (
     <div>
-      React Weather App
-      <p>
+      <Weather />
+      <footer>
         This project was coded by Benzi Holler and is{" "}
         <a
           target="_blank"
@@ -16,7 +17,7 @@ function App() {
         <a target="_blank" href="https://grand-taiyaki-2e97f9.netlify.app/">
           hosted on Netlify
         </a>
-      </p>
+      </footer>
     </div>
   );
 }
