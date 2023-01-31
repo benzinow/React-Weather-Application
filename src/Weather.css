@@ -1,95 +1,54 @@
-h2 {
-  font-size: 30px;
-  color: #fff;
+.Weather {
+  border: 1px solid #dadde1;
+  font-family: Arial, sans-serif;
+  color: rgb(135, 135, 135);
+  padding: 16px;
+  margin: 36px;
+  border-radius: 4px;
+  max-width: 600px;
 }
 
-p {
-  font-weight: normal;
-  font-size: 13px;
-  padding-left: 15px;
-  color: #fff;
+.Weather h1 {
+  color: #878787;
+  font-size: 24px;
+  font-weight: 100;
+  margin: 20px 0 0 0;
+  line-height: 29px;
 }
 
-h1 {
+.Weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Weather li {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+  list-style: none;
+}
+
+.Weather .temperature {
   font-weight: bold;
-  color: #fff;
-  text-align: left;
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  font-weight: 400;
+  align-self: center;
 }
 
-.text {
-  color: #fff;
-  font-size: 15px;
-  font-weight: bold;
+.Weather img {
+  height: 64px;
+  margin-right: inline-block;
+  align-self: center;
 }
 
-.main-temp {
-  font-size: 80px;
+.Weather .temp-box {
+  display: flex;
 }
 
-.weather-icon {
-  width: 100px;
-  margin: 0 0 20px 0;
-}
-
-.weather-decription {
-  text-align: center;
-  width: 100px;
-}
-
-.fara-button {
-  width: 20px;
-}
-
-.content-box {
-  background-color: rgb(0, 0, 0, 0.8);
-  width: 800px;
-  border-radius: 50px;
-  margin: 0 auto;
-  margin-top: 50px;
-  padding: 50px;
-}
-
-.search-button {
-  height: 50px;
-  width: 80px;
-  background-color: rgb(255, 255, 2550, 0.3);
-  border: none;
-  vertical-align: bottom;
-}
-
-.search-icon {
-  height: 45px;
-  transition: 0.2s;
-  padding: 5px;
-  opacity: 0.8;
-}
-
-.search-icon:hover {
-  height: 40px;
-  opacity: 0.5;
-}
-
-.search-input {
-  height: 50px;
-  width: 90%;
-
-  padding: 10px;
-  border: none;
-  font-size: 25px;
-  background-color: rgb(255, 255, 255, 0.3);
-  vertical-align: bottom;
-}
-
-.city-form {
-  margin: 20px;
-}
-
-.forecast-group {
-  text-align: center;
-  margin: 30px;
-}
-
-.credit {
-  color: darkorange;
-  font-size: 8px;
+.Weather .unit {
+  font-size: 16px;
+  color: rgb(33, 33, 33);
+  font-weight: 400;
+  align-self: top;
 }
