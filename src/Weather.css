@@ -52,3 +52,7 @@
   font-weight: 400;
   align-self: top;
 }
+
+.WeatherTemperature {
+  display: flex;
+}
