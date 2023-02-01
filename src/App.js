@@ -1,11 +1,12 @@
 import "./App.css";
 import Weather from "./Weather.js";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Images from "./weather-icons/index.js";
 
 function App() {
   return (
     <div>
-      <Weather defaultCity={"London"} />
+      <Weather defaultCity={"Tucson"} />
       <footer>
         This project was coded by Benzi Holler and is{" "}
         <a

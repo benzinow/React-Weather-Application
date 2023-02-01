@@ -36,7 +36,7 @@
   align-self: center;
 }
 
-.Weather img {
+.Weather canvas {
   height: 64px;
   margin-right: inline-block;
   align-self: center;
