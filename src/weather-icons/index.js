@@ -9,5 +9,15 @@ const Images = {
   snow: require("./snow.gif"),
   storm: require("./storm.gif"),
   clearDay: require("./sun.gif"),
+  partlyCloudyDayStatic: require("./cloudy.svg"),
+  partlyCloudyNightStatic: require("./cloudy-night.svg"),
+  cloudyStatic: require("./clouds.svg"),
+  drizzleStatic: require("./drizzle.svg"),
+  foggyStatic: require("./foggy.svg"),
+  clearNightStatic: require("./night.svg"),
+  rainStatic: require("./rain.svg"),
+  snowStatic: require("./snow.svg"),
+  stormStatic: require("./storm.svg"),
+  clearDayStatic: require("./sun.svg"),
 };
 export default Images;
