@@ -11,11 +11,16 @@ function App() {
         <a
           target="_blank"
           href="https://github.com/benzinow/react-weather-application"
+          rel="noreferrer"
         >
           open-sourced on GitHub
         </a>{" "}
         and{" "}
-        <a target="_blank" href="https://grand-taiyaki-2e97f9.netlify.app/">
+        <a
+          target="_blank"
+          href="https://grand-taiyaki-2e97f9.netlify.app/"
+          rel="noreferrer"
+        >
           hosted on Netlify
         </a>
       </footer>
