@@ -18,7 +18,7 @@ function App() {
         and{" "}
         <a
           target="_blank"
-          href="https://grand-taiyaki-2e97f9.netlify.app/"
+          href="https://effulgent-paprenjak-e75b2a.netlify.app/"
           rel="noreferrer"
         >
           hosted on Netlify
