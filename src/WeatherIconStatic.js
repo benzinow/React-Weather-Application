@@ -1,7 +1,7 @@
 import React from "react";
 import Images from "./weather-icons";
 
-export default function WeatherIcon(props) {
+export default function WeatherIconStatic(props) {
   const codeMapping = {
     "clear-sky-day": Images.clearDayStatic,
     "clear-sky-night": Images.clearNightStatic,

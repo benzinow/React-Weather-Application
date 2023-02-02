@@ -23,5 +23,5 @@ export default function WeatherIcon(props) {
     "mist-night": Images.foggy,
   };
 
-  return <img src={codeMapping[props.code]} height="90px" />;
+  return <img src={codeMapping[props.code]} height={props.size} />;
 }
