@@ -3,6 +3,16 @@
   margin: 0 auto;
 }
 
-.App footer {
-  font-size: 11px;
+footer {
+  font-size: 10px;
+  text-align: center;
+  padding: 0;
+}
+
+.App a {
+  color: rgba(51, 204, 204, 255);
+}
+
+.App a:visited {
+  color: rgb(28, 108, 108);
 }

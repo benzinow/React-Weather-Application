@@ -9,11 +9,10 @@
 }
 
 .Weather h1 {
-  color: #878787;
-  font-size: 24px;
+  color: rgb(28, 108, 108);
+  font-size: 30px;
   font-weight: 100;
   margin: 20px 0 0 0;
-  line-height: 29px;
 }
 
 .Weather ul {
@@ -55,4 +54,18 @@
 
 .WeatherTemperature {
   display: flex;
+}
+
+.Weather .btn {
+  background-color: rgb(51, 203, 203) !important;
+  border-color: rgb(51, 203, 203) !important;
+}
+
+.Weather .btn:hover {
+  border-color: rgb(28, 108, 108) !important;
+  background-color: rgb(28, 108, 108) !important;
+}
+
+.Weather .form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(51, 203, 203, 0.25);
 }
